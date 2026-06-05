@@ -1,0 +1,12 @@
+bundle:
+  name: clinical-trials-lakehouse
+
+targets:
+  dev:
+    mode: development
+
+  test:
+    mode: development
+
+  prod:
+    mode: production
