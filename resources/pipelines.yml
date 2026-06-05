@@ -1,0 +1,16 @@
+resources:
+
+  pipelines:
+
+    clinical_trial_pipeline:
+
+      name: clinical_trial_pipeline
+
+      catalog: clinical_trials_dev
+
+      target: lakeflow_demo
+
+      libraries:
+
+        - notebook:
+            path: /Workspace/notebooks/06_lakeflow_pipeline
